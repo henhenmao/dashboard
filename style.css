@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    background-color: #ace7ff;
+    grid-column: 1 / 2;
+
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr 2fr;
+    row-gap: 5%;
+
+    padding: 20px;
+}
+
+.home-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-buttons {
+    display: grid;
+}
+
+.side-settings {
+    display: grid;
+}
+
+.main {
+    grid-column: 2 / 3;
+
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.heading {
+    background-color: #f5d5e3;
+
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    
+
+}
+
+.search {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search-bar {
+    background-color: #b5ead7;
+}
+
+.user-icon {
+    background-color: #cec8ef;
+}
+
+.hi-there {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+}
+
+.user-info {
+    background-color:#cec8ef;
+}
+
+.create-buttons {
+    background-color: lavender;
+}
+
+.content {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.projects {
+    background-color: #b5ead7;
+    display: grid;
+
+    grid-template-rows: 1fr 10fr;
+
+}
+
+.your-projects {
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.other {
+    display: grid;
+    grid-template-rows: 1fr 1fr;    
+}
+
+.announcements {
+    background-color: #ace7ff;
+}
+
+.trending {
+    background-color: #e3e3fa;
+}
